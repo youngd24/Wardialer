@@ -1,5 +1,7 @@
 # Wardialer
-A real deal wardialer patterned around 1985 for the Apple IIe
+A real deal wardialer patterned around 1985 for the Apple IIe, heavily inspired by the Hayes Hackamatic I found while searching for these sorts of historical oddities. It's designed so that one can build and test locally, currently on a Windows machine, using AppleWin as the emulator and AppleCommander (ac/acx) as the tooling to help insert the code into a disk. Once complete the DSK file can be copied to something like a FloppyEmu to run on real steel hardware or even copied to a real diskette if you'd like.
+
+This one is designed around a Hayes 300/1200 connected via a Super Serial Card in slot 2 of the Apple IIe machine, AppleWin as the emulator looks the same as this setup does in the real world. It's possible a future version might use one of the Hayes internal modems but, for now, it's done via AT commands across the SSC.
 
 ## VS Code Tasks (Build & Run)
 
