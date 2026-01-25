@@ -67,7 +67,9 @@ Do not split these steps into separate tasks expecting environment variables to 
 
 # VSCode Keybinding
 
-This project remaps **Ctrl+F5** to run the WARDIAL build + run task.
+This project remaps **Ctrl+F5** to run the WARDIAL build + run task. Template files
+are included in the .vscode directory, copy them into place into your user location
+for them (documented below).
 
 Binding:
 - Key: Ctrl+F5
